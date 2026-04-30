@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Laboratório do Corte: barbearia premium em São Paulo com cortes, barba, sobrancelha, descoloração e acabamento de alto impacto."
+    />
+    <meta name="theme-color" content="#050505" />
+    <meta property="og:title" content="Laboratório do Corte | Barbearia" />
+    <meta
+      property="og:description"
+      content="Seu corte no próximo nível. Chegue, corte e descubra as próximas novidades do Laboratório do Corte."
+    />
+    <meta property="og:type" content="website" />
+    <title>Laboratório do Corte | Barbearia</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="imagens/apple-touch-icon.png" />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <!-- TOPO / MENU -->
+    <header class="topo" id="inicio">
+      <nav class="nav" aria-label="Menu principal">
+        <a class="marca" href="#inicio" aria-label="Voltar ao início">
+          <img src="imagens/logo-small.png" alt="Laboratório do Corte Barbearia" />
+          <span>Laboratório do Corte</span>
+        </a>
+
+        <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu-principal">
+          <span></span>
+          <span></span>
+          <span></span>
+          <strong>Menu</strong>
+        </button>
+
+        <div class="menu" id="menu-principal">
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#avaliacoes">Avaliações</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#localizacao">Onde estamos</a>
+          <a href="#contato">Contato</a>
+        </div>
+
+        <div class="sociais sociais-topo" aria-label="Redes sociais">
+          <a href="https://instagram.com/labdocorte" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8Zm4.2 3.2a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6Zm0 2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6Zm5-2.35a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z" />
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61589311850103" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14 8.6V6.8c0-.7.45-.9.82-.9H17V2.2L14 2c-3.35 0-4.1 2.05-4.1 4.25V8.6H7.2v3.75h2.7V22H14v-9.65h2.75l.42-3.75H14Z" />
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <!-- BANNER INICIAL -->
+      <section class="hero secao" aria-labelledby="titulo-hero">
+        <div class="hero-luz hero-luz-a"></div>
+        <div class="hero-luz hero-luz-b"></div>
+
+        <div class="hero-conteudo reveal">
+          <img class="hero-logo" src="imagens/logo.png" alt="Laboratório do Corte" />
+          <p class="eyebrow">Barbearia, estilo e acabamento premium</p>
+          <h1 id="titulo-hero">
+            <span>Seu</span>
+            <span>visual no</span>
+            <span>próximo</span>
+            <span>nível</span>
+          </h1>
+          <p class="hero-texto">
+            Atendimento personalizado para cortes, barbas, sobrancelhas e transformações com
+            precisão, presença e uma experiência marcante do início ao fim.
+          </p>
+          <div class="acoes">
+            <a class="botao botao-principal js-whatsapp" href="https://wa.me/5511952927991?text=Fala!%20Vim%20pelo%20site%20do%20Laborat%C3%B3rio%20do%20Corte%20e%20quero%20elevar%20o%20n%C3%ADvel%20do%20meu%20corte.%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F">
+              Garantir Seu Corte
+            </a>
+            <a class="botao botao-fantasma" href="#servicos">Conhecer Serviços</a>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal" aria-label="Oferta de primeira visita">
+          <span>Primeira visita</span>
+          <strong>25% de desconto</strong>
+          <p>Corte, barba ou corte e barba para descobrir o padrão Laboratório do Corte.</p>
+        </aside>
+      </section>
+
+      <!-- SOBRE O NEGÓCIO -->
+      <section class="secao sobre" id="sobre" aria-labelledby="titulo-sobre">
+        <div class="container sobre-grid">
+          <div class="texto-bloco reveal">
+            <p class="eyebrow">Sobre o negócio</p>
+            <h2 id="titulo-sobre">Técnica, presença e acabamento de alto impacto</h2>
+            <p>
+              Depois de 6 anos de experiência, técnica e muitos clientes atendidos, nasce o
+              Laboratório do Corte: uma nova fase com identidade própria, padrão de marca e
+              acabamento pensado para quem quer chegar e sair no próximo nível.
+            </p>
+            <p>
+              Você pode chegar e cortar sem aviso prévio. Em breve, novas facilidades e novidades
+              vão deixar a experiência ainda mais completa.
+            </p>
+          </div>
+
+          <div class="foto-moldura reveal">
+            <img src="imagens/sobre-equipe.jpg" alt="Equipe da barbearia em atendimento" loading="lazy" />
+            <div class="selo">
+              <strong>+3000</strong>
+              <span>clientes atendidos</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NOSSOS SERVIÇOS -->
+      <section class="secao servicos" id="servicos" aria-labelledby="titulo-servicos">
+        <div class="container">
+          <div class="secao-cabecalho reveal">
+            <p class="eyebrow">Nossos serviços</p>
+            <h2 id="titulo-servicos">Tratamentos para elevar sua presença</h2>
+          </div>
+
+          <div class="servicos-grid">
+            <article class="servico-card reveal">
+              <span>01</span>
+              <h3>Corte personalizado</h3>
+              <p>Corte com consultoria de estilo, lavagem e finalização para valorizar seu visual.</p>
+            </article>
+            <article class="servico-card reveal">
+              <span>02</span>
+              <h3>Barba completa</h3>
+              <p>Alinhamento, navalha, hidratação e acabamento preciso para manter a barba no ponto.</p>
+            </article>
+            <article class="servico-card reveal">
+              <span>03</span>
+              <h3>Design de sobrancelhas</h3>
+              <p>Limpeza e desenho natural para harmonizar o rosto sem exageros.</p>
+            </article>
+            <article class="servico-card reveal">
+              <span>04</span>
+              <h3>Tratamento capilar</h3>
+              <p>Hidratação e controle de frizz para deixar o cabelo com aparência mais cuidada.</p>
+            </article>
+            <article class="servico-card reveal">
+              <span>05</span>
+              <h3>Pacote completo</h3>
+              <p>Corte, barba, sobrancelha e finalização para eventos, fotos e ocasiões especiais.</p>
+            </article>
+            <article class="servico-card reveal">
+              <span>06</span>
+              <h3>Descoloração</h3>
+              <p>Clareamento completo ou parcial para transformar o visual com presença e atitude.</p>
+            </article>
+          </div>
+
+          <div class="centro reveal">
+            <a class="botao botao-principal js-whatsapp" href="https://wa.me/5511952927991?text=Fala!%20Vim%20pelo%20site%20do%20Laborat%C3%B3rio%20do%20Corte%20e%20quero%20elevar%20o%20n%C3%ADvel%20do%20meu%20corte.%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F">
+              Seu Corte no Próximo Nível
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- AVALIAÇÕES / CARROSSEL -->
+      <section class="secao avaliacoes" id="avaliacoes" aria-labelledby="titulo-avaliacoes">
+        <div class="container avaliacoes-grid">
+          <div class="texto-bloco reveal">
+            <p class="eyebrow">Avaliações de clientes</p>
+            <h2 id="titulo-avaliacoes">Feedbacks de quem já viveu a experiência</h2>
+            <p>
+              Quem passa pelo Laboratório do Corte encontra atenção no detalhe, acabamento limpo e
+              um visual pronto para chamar presença.
+            </p>
+          </div>
+
+          <div class="carrossel reveal" aria-roledescription="carrossel">
+            <div class="depoimento ativo">
+              <p>"Atendimento impecável, ambiente bonito e corte exatamente do jeito que pedi."</p>
+              <strong>Rafael M.</strong>
+              <span>Cliente de corte e barba</span>
+            </div>
+            <div class="depoimento">
+              <p>"O acabamento ficou muito bem feito. Dá para ver o cuidado em cada detalhe."</p>
+              <strong>Lucas A.</strong>
+              <span>Cliente de corte degradê</span>
+            </div>
+            <div class="depoimento">
+              <p>"O lugar tem uma estética incrível e passa confiança desde a entrada."</p>
+              <strong>Diego S.</strong>
+              <span>Cliente pacote completo</span>
+            </div>
+
+            <div class="carrossel-controles">
+              <button type="button" class="carrossel-btn" data-direcao="anterior" aria-label="Depoimento anterior">
+                ‹
+              </button>
+              <div class="bolinhas" aria-label="Indicadores do carrossel"></div>
+              <button type="button" class="carrossel-btn" data-direcao="proximo" aria-label="Próximo depoimento">
+                ›
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GALERIA -->
+      <section class="secao galeria" id="galeria" aria-labelledby="titulo-galeria">
+        <div class="container">
+          <div class="secao-cabecalho reveal">
+            <p class="eyebrow">Galeria de fotos</p>
+            <h2 id="titulo-galeria">Trabalhos realizados</h2>
+          </div>
+
+          <div class="galeria-grid">
+            <figure class="galeria-item reveal">
+              <img src="imagens/corte-degrade.jpg" alt="Resultado de corte degradê" loading="lazy" />
+              <figcaption>Corte degradê</figcaption>
+            </figure>
+            <figure class="galeria-item reveal">
+              <img src="imagens/barba-alinhada.jpg" alt="Barba alinhada com acabamento" loading="lazy" />
+              <figcaption>Barba alinhada</figcaption>
+            </figure>
+            <figure class="galeria-item reveal">
+              <img src="imagens/acabamento.jpg" alt="Acabamento com desenho no cabelo" loading="lazy" />
+              <figcaption>Acabamento</figcaption>
+            </figure>
+            <figure class="galeria-item reveal">
+              <img src="imagens/corte-social.jpg" alt="Corte social finalizado" loading="lazy" />
+              <figcaption>Corte social</figcaption>
+            </figure>
+            <figure class="galeria-item reveal">
+              <img src="imagens/descoloracao.jpg" alt="Cabelo com descoloração completa" loading="lazy" />
+              <figcaption>Descoloração</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ONDE ESTAMOS -->
+      <section class="secao localizacao" id="localizacao" aria-labelledby="titulo-localizacao">
+        <div class="container localizacao-grid">
+          <div class="texto-bloco reveal">
+            <p class="eyebrow">Onde estamos</p>
+            <h2 id="titulo-localizacao">Venha conhecer nosso espaço</h2>
+            <address>
+              Rua Paulino Pacheco de Mello, 111-A<br />
+              Jardim Robru - São Paulo - SP<br />
+              CEP 08150-320<br />
+              Funcionamento: terça a sábado, das 09h às 19h
+            </address>
+            <a class="botao botao-fantasma" href="https://maps.google.com/?q=Rua%20Paulino%20Pacheco%20de%20Mello%20111-A%20Jardim%20Robru%20Sao%20Paulo%20SP" target="_blank" rel="noopener">
+              Abrir no mapa
+            </a>
+          </div>
+
+          <div class="mapa reveal">
+            <iframe
+              title="Mapa com a localização da barbearia"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Rua%20Paulino%20Pacheco%20de%20Mello%20111-A%20Jardim%20Robru%20Sao%20Paulo%20SP&output=embed"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- FALE CONOSCO -->
+      <section class="secao contato" id="contato" aria-labelledby="titulo-contato">
+        <div class="container contato-grid">
+          <div class="texto-bloco reveal">
+            <p class="eyebrow">Fale conosco</p>
+            <h2 id="titulo-contato">Pronto pra ter seu corte no próximo nível?</h2>
+            <p>
+              Envie uma mensagem no WhatsApp para saber mais informações sobre serviços, valores
+              e novidades que estão chegando.
+            </p>
+            <ul class="lista-contato">
+              <li><strong>WhatsApp:</strong> (11) 95292-7991</li>
+              <li><strong>E-mail:</strong> labdocorte@gmail.com</li>
+              <li><strong>Instagram:</strong> @labdocorte</li>
+            </ul>
+            <a class="botao botao-principal js-whatsapp" href="https://wa.me/5511952927991?text=Fala!%20Vim%20pelo%20site%20do%20Laborat%C3%B3rio%20do%20Corte%20e%20quero%20elevar%20o%20n%C3%ADvel%20do%20meu%20corte.%20Pode%20me%20passar%20mais%20informa%C3%A7%C3%B5es%3F">
+              Tire suas Dúvidas no WhatsApp
+            </a>
+          </div>
+
+          <form class="formulario reveal" id="formulario-contato">
+            <label>
+              Nome
+              <input type="text" name="nome" placeholder="Seu nome" required />
+            </label>
+            <label>
+              Telefone
+              <input type="tel" name="telefone" placeholder="(11) 95292-7991" required />
+            </label>
+            <label>
+              Serviço desejado
+              <select name="servico" required>
+                <option value="">Escolha uma opção</option>
+                <option>Corte personalizado</option>
+                <option>Barba completa</option>
+                <option>Design de sobrancelhas</option>
+                <option>Descoloração</option>
+                <option>Pacote completo</option>
+              </select>
+            </label>
+            <label>
+              Mensagem
+              <textarea name="mensagem" rows="4" placeholder="Conte sua dúvida ou serviço de interesse"></textarea>
+            </label>
+            <button class="botao botao-principal" type="submit">Enviar pelo WhatsApp</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+      <div class="container rodape-grid">
+        <a href="#inicio" class="rodape-logo" aria-label="Voltar ao início">
+          <img src="imagens/logo-small.png" alt="Laboratório do Corte Barbearia" loading="lazy" />
+        </a>
+        <div>
+          <strong>Laboratório do Corte</strong>
+          <p>Barbearia premium em São Paulo para quem busca corte, barba e acabamento com presença.</p>
+        </div>
+        <div class="sociais" aria-label="Redes sociais no rodapé">
+          <a href="https://instagram.com/labdocorte" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm0 2A3.8 3.8 0 0 0 4 7.8v8.4A3.8 3.8 0 0 0 7.8 20h8.4a3.8 3.8 0 0 0 3.8-3.8V7.8A3.8 3.8 0 0 0 16.2 4H7.8Zm4.2 3.2a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6Zm0 2a2.8 2.8 0 1 0 0 5.6 2.8 2.8 0 0 0 0-5.6Zm5-2.35a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3Z" />
+            </svg>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=61589311850103" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M14 8.6V6.8c0-.7.45-.9.82-.9H17V2.2L14 2c-3.35 0-4.1 2.05-4.1 4.25V8.6H7.2v3.75h2.7V22H14v-9.65h2.75l.42-3.75H14Z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <p class="copyright">© 2026 Laboratório do Corte. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="animacoes.js"></script>
+  </body>
+</html>
